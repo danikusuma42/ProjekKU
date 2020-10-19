@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuDashboard"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MENU DASHBOARD"
+        android:textAlignment="center"
+        android:textSize="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/iconsepeda"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:onClick="Sepeda"
+            android:src="@drawable/ic_baseline_directions_bike_24"
+            android:background="@drawable/bundar"/>
+        <View
+            android:layout_width="15dp"
+            android:layout_height="0dp"/>
+        <ImageView
+            android:id="@+id/iconpesawat"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:onClick="pesawat"
+            android:src="@drawable/ic_baseline_flight_24"
+            android:background="@drawable/bundar"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/icontelpon"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:onClick="telpon"
+            android:src="@drawable/ic_baseline_call_24"
+            android:background="@drawable/bundar"/>
+        <View
+            android:layout_width="15dp"
+            android:layout_height="0dp"/>
+        <ImageView
+            android:id="@+id/iconmic"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:onClick="mic"
+            android:src="@drawable/ic_baseline_mic_24"
+            android:background="@drawable/bundar"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/iconrestaurant"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:onClick="restaurant"
+            android:src="@drawable/ic_baseline_restaurant_menu_24"
+            android:background="@drawable/bundar"/>
+        <View
+            android:layout_width="15dp"
+            android:layout_height="0dp"/>
+        <ImageView
+            android:id="@+id/iconkalkulator"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:onClick="kalkulator"
+            android:src="@drawable/ic_baseline_filter_9_plus_24"
+            android:background="@drawable/bundar"/>
+
+    </LinearLayout>
+</LinearLayout>
